@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+</script>
+
+<head>
+    <title>Product Landing Page</title>
+</head>
+
+<body>
+    <header id="header">
+        <img id="header-img"
+            src="https://blog.codepen.io/wp-content/uploads/2012/06/codepen-wordmark-display-inside-black@10x.png"
+            alt="Company Logo" width="150">
+        <nav id="nav-bar">
+            <a class="nav-link" href="#features-section">Features</a>
+            <a class="nav-link" href="#video-section">Tutorial</a>
+            <a class="nav-link" href="#pricing-section">Pricing</a>
+        </nav>
+    </header>
+    <main>
+        <br><br><br>
+        <h1 class="center">CodePen</h1>
+        <section id="email-section" class="center">
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input id="email" type="email" placeholder="Enter an Email to register" name="email" required><br>
+                <input id="submit" type="submit" value="Get Started!">
+            </form>
+        </section>
+        <section id="features-section">
+            <h2>Features: </h2>
+            <ul>
+                <li>CodePen allows you to write code in the browser, and see the results of it as you build.</li>
+                <li>People use CodePen for all sorts of things: prototyping new ideas, reduced test cases for bugs,
+                    sending clients things to look at, evaluating potential hires, to finding inspiration.</li>
+                <li>People also use CodePen as a sort of resume and portfolio, showing off their best design and
+                    development work.</li>
+            </ul>
+        </section>
+        <section id="video-section">
+            <h2 class="center">Tutorial: </h2>
+            <iframe id="video" src="https://www.youtube.com/embed/vb9uYBtqmeM" frameborder="0" allowfullscreen></iframe>
+        </section>
+        <section id="pricing-section">
+            <h2 id="pricing">Pricing: </h2>
+            <h3 class="price">Base: </h3>
+            <h3 class="price">Starter: </h3>
+            <h3 class="price">Developer: </h3>
+            <h3 class="price">Super: </h3>
+            <p class="price">Free</p>
+            <p class="price">$8/month Billed annually</p>
+            <p class="price">$12/month Billed annually</p>
+            <p class="price">$26/month Billed annually</p>
+        </section>
+    </main>
+</body>
+
+</html>

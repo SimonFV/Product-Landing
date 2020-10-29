@@ -1,0 +1,114 @@
+body {
+    font-family: "Trebuchet MS";
+    background-color: #333;
+}
+
+header {
+    font-size: 20px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: orange;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.nav-link {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: black;
+    background-color: orange;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 33%;
+    text-align: center;
+}
+
+main {
+    color: #FFBB33;
+    width: 100%;
+    margin: auto;
+}
+
+.nav-link:hover {
+    background-color: #FFBB33;
+}
+
+@media (max-width: 700px){
+    #header-img {
+        display: none;
+    }
+}
+
+.center {
+    text-align: center;
+}
+
+#video {
+    display: block;
+    width: 720px;
+    height: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+#pricing-section {
+    display: grid;
+    justify-items: start;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, auto);
+    background-color: rgb(0, 161, 161);
+    column-gap: 20px;
+    row-gap: 0;
+    color: black;
+    font-size: 25px;
+}
+
+#pricing {
+    grid-area: 1/1/2/5;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.price {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin-top: 5px;
+    
+}
+
+#email {
+    width: 25%;
+}
+
+#submit {
+    border: 2px solid rgb(255, 214, 138);
+    background-color: rgba(0, 0, 0, 0.342);
+    width: 20%;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    color: inherit;
+}
+
+#submit:hover {
+    background-color: rgba(68, 55, 10, 0.342);
+}
